@@ -1,2 +1,4 @@
-print("Alice")
-print("Preparing for placements")
+def intro():
+    print("Alice - Preparing for exams")
+
+intro()
