@@ -1,25 +1,21 @@
-#Prog 1: print 1 to 10 using for loop
+# Program 1: Print numbers from 1 to 10
+print("Numbers from 1 to 10:")
 for i in range(1,11):
-  print(i)
-#-------------------------------------
-
-#Prog 2: print 1 to 10 using while loop
-i=1
-while i<=10:
-  print(i)
-  i+=1
-#-------------------------------------
-
-#Prog 3: print even numbers using for loop
-for i in range(1,11):
-  if i%2==0:
     print(i)
-#-------------------------------------
 
-#Prog 4: print even numbers using while loop
+print("------------------------")
+
+# Program 2: Print even numbers from 1 to 20
+print("Even numbers from 1 to 20:")
+for i in range(1,21):
+    if i%2==0:
+        print(i)
+
+print("------------------------")
+
+# Program 3: Print numbers from 1 to 5 using while loop
+print("Numbers from 1 to 5 using while loop:")
 i=1
-while i<=10:
-  if i%2==0:
+while i<=5:
     print(i)
-  i+=1
-  
+    i+=1
